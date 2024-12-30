@@ -1,0 +1,64 @@
+body{
+    background-color:black;
+    color: aliceblue;
+}
+h3,h2,h1{
+    
+    font-size: 30px;
+}
+#first{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    margin-left: 10%;
+
+
+}
+.img{
+    height: 300px; 
+    width: 300px;
+    border-radius: 300px;
+    margin-top: 60px;
+    background-color: aqua;
+    padding:30px ;
+    box-shadow: 0 15px 25px rgba(247, 245, 245, 0.5);
+    }
+
+#id{
+
+    font-size: 25px; 
+    margin-left: 50%;
+}
+
+
+
+li{
+    margin-left: 46%;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#projects{
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+}
+.box{
+    text-align: center;
+    margin-right: 25vh;
+    
+}
+.imgs{
+    height: 350px;
+    width:300px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid lightcyan;
+}
+#contact{
+    margin-left: 45%;
+
+}
+
+    
